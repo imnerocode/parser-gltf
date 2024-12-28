@@ -1,2 +1,6 @@
+github.com/go-test/deep v1.0.1 h1:UQhStjbkDClarlmv0am7OXXO4/GaPdCGiUiMTvi28sg=
+github.com/go-test/deep v1.0.1/go.mod h1:wGDj63lr65AM2AQyKZd/NYHGb0R+1RLqB8NKt3aSFNA=
+github.com/imnerocode/vo-structures v0.0.0-20241220162429-19f4e432af8f h1:L67u2c243CIviR+1H7k0xZkab5fRB3RXR5ABf7Hnvjw=
+github.com/imnerocode/vo-structures v0.0.0-20241220162429-19f4e432af8f/go.mod h1:O6MOysUR/Fjw2ujRtu7nybtLSryCklB963JgOzYLLK8=
 github.com/qmuntal/gltf v0.28.0 h1:C4A1temWMPtcI2+qNfpfRq8FEJxoBGUN3ZZM8BCc+xU=
 github.com/qmuntal/gltf v0.28.0/go.mod h1:YoXZOt0Nc0kIfSKOLZIRoV4FycdC+GzE+3JgiAGYoMs=
