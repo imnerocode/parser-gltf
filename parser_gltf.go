@@ -2,6 +2,7 @@ package parser_gltf
 
 import (
 	"encoding/binary"
+	"encoding/json"
 	"errors"
 
 	"github.com/imnerocode/parser-gltf/vo"
@@ -94,4 +95,13 @@ func ExtractBINData(gltfData *vo.GLTFData) ([]byte, error) {
 	}
 
 	return binData, nil
+}
+
+func ParseGLTFJSON(jsonData []byte) (*vo.GLTF, error) {
+	var gltf vo.GLTF
+	err := json.Unmarshal(jsonData, &gltf)
+	if err != nil {
+		return nil, errors.New("failed to parse GLTF JSON")
+	}
+	return &gltf, nil
 }
