@@ -11,14 +11,12 @@ This project is a GLTF parser implemented in Go. It reads `.glb` files, extracts
 
 ## Project Structure
 .
-├── main.go                # Entry point of the application
-├── parser_gltf            # Parser package
-│   ├── reader.go          # Reads GLB headers and extracts data
-│   └── parser.go          # Deserializes JSON data
+├── main.go # Entry point of the application
+├── parser_gltf # Parser package
+│   ├── reader.go # Reads GLB headers and extracts data
+│   └── parser.go # Deserializes JSON data
 └── vo
-    └── models.go          # Data structures for GLTF
-
----
+    └── models.go # Data structures for GLTF
 
 ## Requirements
 - Go 1.19 or later
